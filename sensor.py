@@ -25,8 +25,8 @@ STATE_VALUE = "value"
 STATE_OBJECT = "object"
 CONF_INTERVAL = "interval"
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=1)
-SCAN_INTERVAL = timedelta(seconds=1)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=5)
+SCAN_INTERVAL = timedelta(seconds=5)
 RETRY_INTERVAL = timedelta(seconds=30)
 
 OHM_VALUE = "Value"
